@@ -40,7 +40,7 @@ def is_bitlink(token, url_netloc, url_path):
 
 
 def get_parser():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='Сreate a bitlink or count the clicks on the bitlink.')
     parser.add_argument('url', help='enter the link')
     return parser
 
